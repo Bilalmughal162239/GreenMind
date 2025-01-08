@@ -1,0 +1,25 @@
+main.login {
+    background-color: rgba(10, 85, 60, 0.856);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .card{
+        width: 100%;
+        max-width: 450px;
+    }
+
+    #Login_link {
+        text-decoration: none;
+        color: black;
+        background-color: cadetblue;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    #LinkButtons {
+        display: flex;
+        justify-content: space-around;
+    }
+}

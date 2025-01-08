@@ -1,0 +1,48 @@
+main.Hero{
+    #Hero_section{
+        background-color: rgba(66, 244, 185, 0.3);
+        border-radius: 20px;
+        color: black;
+    }
+    .Heading1{
+        font-weight: bolder;
+        font-size: 60px;  
+    }
+    #Hero_Form{
+        width: 55%;
+        background-color: gray;
+        border-radius: 25px;
+        position: relative;
+    }
+    #Hero_input{
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 25px;
+        font-size: 20px;
+        padding: 8px 40px 8px 20px;
+        border: none;
+        // box-shadow: 0 5px 8px 3px black;
+    }
+    #Hero_input:focus{
+        outline: none;
+    }
+    #Hero_Button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 100%;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        background-color: none;
+        font-size: 18px;
+    }
+    #Hero_Button i{
+        color: rgb(93, 94, 95);
+    }
+    #Hero_Button:hover i{
+        color: rgb(162, 163, 163);
+    }
+}

@@ -1,0 +1,29 @@
+$primary: rgba(2, 88, 59, 0.925);
+$info: #1d3557;
+
+@import './scss/bootstarp';
+@import './scss/ScreenLoader';
+@import './scss/HeaderFooter';
+@import './scss/Home/Hero';
+@import './scss/Home/Plants';
+@import './scss/Home/About';
+@import './scss/Home/Categories.scss';
+@import './scss/Home/Teastimaonial.scss';
+@import './scss/Auth/Register';
+@import './scss/Auth/Login';
+@import './scss/Auth/ForgetPassword';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}

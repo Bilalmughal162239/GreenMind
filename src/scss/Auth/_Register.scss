@@ -1,0 +1,13 @@
+main.Register {
+    background-color: rgba(10, 85, 60, 0.856);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .card {
+        width: 100%;
+        max-width: 500px;
+    }
+
+}
